@@ -1,0 +1,48 @@
+To set the environment for Part 1:
+conda create -n plotly_bokeh python=3.8 numpy pandas matplotlib seaborn jupyter jupyterlab scikit-learn=0.24.1
+conda activate plotly_bokeh
+conda install -c plotly plotly=4.12.0
+conda install -c bokeh bokeh=2.2.3
+
+Optional. Creating a Jupyter kernel for this environment:
+ipython kernel install --name “plotly_bokeh” --user
+
+——
+To set the environment for Part 3:
+Step 1. Create the new empty environment named 'deeplearning'.
+conda create -n deeplearning python=3.8
+
+Step 2. Activate the new environment.
+conda activate deeplearning
+
+Step 3. Install all the basic packages we'll need (including jupyter notebook and lab).
+conda install numpy=1.19.2 pandas matplotlib jupyter jupyterlab pydot pillow seaborn
+
+Note: you might get an initial frozen solve warning, but wait it out and packages should get installed using a flexible solve.
+
+Step 4. Install TensorFlow in this environment.
+pip install --upgrade pip
+pip install tensorflow==2.2
+
+Note: the TensorFlow version available from Conda is a few versions behind. So we will use pip to install the latest version of TensorFlow.
+
+Step 5. Install some more packages that we will need in the TensorFlow lecture.
+conda install scikit-learn=0.24.1 nltk
+conda install -c conda-forge gensim=3.8.3
+Step 6. Install PyTorch and TorchVision.
+conda install -c pytorch pytorch=1.4 torchvision=0.5.0
+conda install -c conda-forge tqdm
+
+Optional. Creating a Jupyter kernel for this environment:
+ipython kernel install --name "deeplearning" --user
+
+——
+
+To set the environment for Part 4:
+conda create -n timeseries python=3.8 numpy pandas matplotlib seaborn statsmodels scikit-learn=0.24.1 jupyter jupyterlab
+conda activate timeseries
+conda install -c plotly plotly=4.14.3
+conda install -c conda-forge fbprophet=0.7.1
+
+Optional - Creating a Jupyter kernel for this environment:
+ipython kernel install --name "timeseries" --user
