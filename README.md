@@ -21,13 +21,13 @@ In Part 4 of this project, we used time series analysis to describe temporal tre
 
 Other files presented in this submission are:
 
-	6.	environments.txt
+	5.	environments.txt
 A file containing instructions to set the recommended environments to run each one of the above notebooks. 
 
-	7.	data 
+	6.	data 
 A folder containing the csv files used in this project.
 
-	8.	Alan_Fleck_Capstone_Final_Report.pdf
+	7.	Alan_Fleck_Capstone_Final_Report.pdf
 The final report containing a summarized description of the background, objectives, data preprocessing, results and conclusions of this project.
 
 
