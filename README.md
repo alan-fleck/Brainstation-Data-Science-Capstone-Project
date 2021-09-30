@@ -2,7 +2,7 @@
 
 ## Author: Alan Fleck
 
-Following is a description of the files contained in this project, as well as a recommendation of the order of visualization. Please note that the Plotly plots from Part 1 and Part 4 are not rendered by Github. For this reason, they are displayed here as statitc. Please follow the instructions in the these two notebooks to view the interactive versions of the plots in your Jupyter Notebook.
+Following is a description of the files contained in this project, as well as a recommendation of the order of visualization. Please note that the Plotly plots from Part 1 and Part 4 are not rendered by Github. For this reason, they are displayed here as static. Please follow the instructions in the these two notebooks to view the interactive versions of the plots in your Jupyter Notebook.
 
 	1.	Part_1_PreProcessing_EDA.ipynb
 Background, Data Preprocessing and Exploratory Data Analysis (EDA) for this project. Using Plotly, we looked at the relationship between the different features with the number of bird strikes, the number of damaging strikes to the aircrafts, and the damage rate.
